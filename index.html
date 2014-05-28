@@ -1,1 +1,975 @@
-Hello World
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Quo Vadis GUI</title>
+
+
+        <!-- Quo Vadis style -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <section class="gui-side">
+                    <header class="text-center">
+                        <img src="images/gui/logo.png" alt="" height="75">
+                    </header>
+                    <h1 class="gui-title text-center">
+                        GUI
+                    </h1>
+                    <footer class="text-center">
+                        2014 QUOVADIS. All rights reserved.<br>
+                        Designed by AppVentus in Nantes, France.
+                    </footer>
+                </section>
+                <div class="gui">
+                    <div class="gui-content">
+
+
+
+                        <hr>
+                        <p class="text-center">
+                            All this GUI is made as an <a href="http://getbootstrap.com/">Bootstrap</a> add-on. Using here the version 3.1.1.
+                        </p>
+                        <hr>
+
+                        <section class="gui-section">
+                            <h1 class="gui-heading">Color swatches</h1>
+
+                            <ul class="list-inline">
+                                <li>
+                                    <div class="color">
+                                        <div class="color-swatch">
+                                            <div class="color-swatch-part bg-grey"></div>
+                                            <div class="color-swatch-part bg-grey-dark"></div>
+                                        </div>
+                                        <h2 class="color-title">Grey</h2>
+                                        <p class="uppercase">#c9c9c9, #999999</p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="color">
+                                        <div class="color-swatch">
+                                            <div class="color-swatch-part bg-anthracite"></div>
+                                            <div class="color-swatch-part bg-anthracite-dark"></div>
+                                        </div>
+                                        <h2 class="color-title">Anthracite</h2>
+                                        <p class="uppercase">#494949, #313131</p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="color">
+                                        <div class="color-swatch">
+                                            <div class="color-swatch-part bg-mint"></div>
+                                            <div class="color-swatch-part bg-mint-dark"></div>
+                                        </div>
+                                        <h2 class="color-title">Mint</h2>
+                                        <p class="uppercase">#029D9F, #008185</p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="color">
+                                        <div class="color-swatch">
+                                            <div class="color-swatch-part bg-orange"></div>
+                                            <div class="color-swatch-part bg-orange-dark"></div>
+                                        </div>
+                                        <h2 class="color-title">Orange</h2>
+                                        <p class="uppercase">#FFAB3F, #FF9000</p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="color">
+                                        <div class="color-swatch">
+                                            <div class="color-swatch-part bg-purple"></div>
+                                            <div class="color-swatch-part bg-purple-dark"></div>
+                                        </div>
+                                        <h2 class="color-title">Purple</h2>
+                                        <p class="uppercase">#E21A65, #B40A4A</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
+
+                        <section class="gui-section">
+                            <h1 class="gui-heading">Buttons</h1>
+
+
+
+
+
+                            <hr>
+
+
+                            <h2 class="gui-sub-heading">Classic</h2>
+                            <p>
+                                <a href="" class="btn">Normal</a>
+                                <a href="" class="btn active">Active</a>
+                                <a href="#" class="btn focus">Focus</a>
+                                <a href="#" class="btn" disabled="">Disabled</a>
+                            </p>
+                            <p>
+                                Buttons are using the class <code>.btn</code> from bootstrap. This example is without any theming, as you will see next.
+                            </p>
+
+
+                            <hr>
+
+
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <h2 class="gui-sub-heading">Default</h2>
+                                    <p>
+                                        <a href="#" class="btn btn-default">Normal</a>
+                                        <a href="#" class="btn btn-default active">Active</a>
+                                        <a href="#" class="btn btn-default focus">Focus</a>
+                                        <a href="#" class="btn btn-default" disabled="">Disabled</a>
+                                    </p>
+                                    <p>
+                                        "Default" buttons are based on the class <code>.btn-default</code> from <strong>bootstrap</strong>
+                                    </p>
+                                    <hr>
+                                </div>
+                                <div class="col-xs-6">
+                                    <h2 class="gui-sub-heading">Primary</h2>
+                                    <p>
+                                        <a href="#" class="btn btn-primary">Normal</a>
+                                        <a href="#" class="btn btn-primary active">Active</a>
+                                        <a href="#" class="btn btn-primary focus">Focus</a>
+                                        <a href="#" class="btn btn-primary" disabled="">Disabled</a>
+                                    </p>
+                                    <p>
+                                        "Primary" buttons are based on the class <code>.btn-primary</code> from <strong>bootstrap</strong>
+                                    </p>
+                                    <hr>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <h2 class="gui-sub-heading">Call to action</h2>
+                                    <p>
+                                        <a href="#" class="btn btn-success">Normal</a>
+                                        <a href="#" class="btn btn-success active">Active</a>
+                                        <a href="#" class="btn btn-success focus">Focus</a>
+                                        <a href="#" class="btn btn-success" disabled="">Disabled</a>
+                                    </p>
+                                    <p>
+                                        "Call to action" buttons are based on the class <code>.btn-success</code> from <strong>bootstrap</strong>
+                                    </p>
+                                </div>
+                                <div class="col-xs-6">
+                                    <h2 class="gui-sub-heading">Special</h2>
+                                    <p>
+                                        <a href="#" class="btn btn-danger">Normal</a>
+                                        <a href="#" class="btn btn-danger active">Active</a>
+                                        <a href="#" class="btn btn-danger focus">Focus</a>
+                                        <a href="#" class="btn btn-danger" disabled="">Disabled</a>
+                                    </p>
+                                    <p>
+                                        "Special" buttons are based on the class <code>.btn-danger</code> from <strong>bootstrap</strong>
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <hr>
+
+
+                            <h2 class="gui-sub-heading">Icons in buttons</h2>
+                            <p>
+                                In case of icons like Glyphicons, Font Awesome or any images, You can use the class <code>.btn-icon-before</code> <code>.btn-icon-after</code> in order to enjoy some space between the text and the icons.
+                            </p>
+                            <p class="text-center">
+                                <a href="#" class="btn btn-danger">
+                                    <i class="fa fa-rebel btn-icon-before"></i>
+                                    Buttons with btn-icon class
+                                    <i class="fa fa-empire btn-icon-after"></i>
+                                </a>
+                            </p>
+                            <p class="text-center">
+                                <a href="#" class="btn btn-danger">
+                                    <i class="fa fa-rebel"></i>
+                                    Buttons without btn-icon class
+                                    <i class="fa fa-empire"></i>
+                                </a>
+                            </p>
+
+
+                            <hr>
+
+
+                            <h2 class="gui-sub-heading">Sizes</h2>
+                            <p>
+                                <button type="button" class="btn btn-lg">Large button</button>
+                                <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                                <button type="button" class="btn btn-danger btn-lg">Large button</button>
+                            </p>
+                            <p>
+                                <button type="button" class="btn">Default button</button>
+                                <button type="button" class="btn btn-primary">Default button</button>
+                                <button type="button" class="btn btn-danger">Default button</button>
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-sm">Small button</button>
+                                <button type="button" class="btn btn-primary btn-sm">Small button</button>
+                                <button type="button" class="btn btn-danger btn-sm">Small button</button>
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-xs">Extra small button</button>
+                                <button type="button" class="btn btn-primary btn-xs">Extra small button</button>
+                                <button type="button" class="btn btn-danger btn-xs">Extra small button</button>
+                            </p>
+
+
+                            <hr>
+
+
+                            <h2 class="gui-heading">Btn group</h2>
+
+
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-default">Left</button>
+                                        <button type="button" class="btn btn-default">Middle</button>
+                                        <button type="button" class="btn btn-default">Right</button>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-primary">Left</button>
+                                        <button type="button" class="btn btn-primary">Middle</button>
+                                        <button type="button" class="btn btn-primary">Right</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <br>
+
+
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-success">Left</button>
+                                        <button type="button" class="btn btn-success">Middle</button>
+                                        <button type="button" class="btn btn-success">Right</button>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-danger">Left</button>
+                                        <button type="button" class="btn btn-danger">Middle</button>
+                                        <button type="button" class="btn btn-danger">Right</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <br>
+
+
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn">Left</button>
+                                        <button type="button" class="btn">Middle</button>
+                                        <button type="button" class="btn">Right</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <br>
+
+
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <div class="btn-group btn-group-lg">
+                                        <button type="button" class="btn">Left large</button>
+                                        <button type="button" class="btn">Right large</button>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 text-center">
+                                    <div class="btn-group btn-group-sm">
+                                        <button type="button" class="btn">Left small</button>
+                                        <button type="button" class="btn">Right small</button>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 text-right">
+                                    <div class="btn-group btn-group-xs">
+                                        <button type="button" class="btn">Left small</button>
+                                        <button type="button" class="btn">Right small</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="gui-section">
+                            <h1 class="gui-heading">Form element</h1>
+
+                            <h2 class="gui-sub-heading">Checkboxes</h2>
+
+                            <input class="custom-checkbox" type="checkbox" id="exampleCheckbox1">
+                            <label for="exampleCheckbox1">Default</label>
+
+                            <input class="custom-checkbox" type="checkbox" id="exampleCheckbox2" disabled="">
+                            <label for="exampleCheckbox2">Disabled</label>
+
+                            <input class="custom-checkbox" type="checkbox" id="exampleCheckbox3" checked="">
+                            <label for="exampleCheckbox3">Checked</label>
+
+                            <input class="custom-checkbox" type="checkbox" id="exampleCheckbox4" checked="" disabled="">
+                            <label for="exampleCheckbox4">Checked &amp; Disabled</label>
+
+
+
+                            <h2 class="gui-sub-heading">Radios</h2>
+
+                            <input class="custom-radio" type="radio" id="exampleRadio1">
+                            <label for="exampleRadio1">Default</label>
+
+                            <input class="custom-radio" type="radio" id="exampleRadio2" disabled="">
+                            <label for="exampleRadio2">Disabled</label>
+
+                            <input class="custom-radio" type="radio" id="exampleRadio3" checked="">
+                            <label for="exampleRadio3">Checked</label>
+
+                            <input class="custom-radio" type="radio" id="exampleRadio4" checked="" disabled="">
+                            <label for="exampleRadio4">Checked &amp; Disabled</label>
+
+
+
+                            <h2 class="gui-sub-heading">Switchers</h2>
+
+                            <input class="switcher" type="checkbox" id="exampleSwitchers1">
+                            <label for="exampleSwitchers1">Remember me</label>
+
+                            <input class="checkbox-to-switcher" type="checkbox" id="exampleSwitchers2">
+                            <label for="exampleSwitchers2">Checkbox on desktop &amp; Switcher on Tablet/Phone</label>
+
+
+
+                            <h2 class="gui-sub-heading">Select</h2>
+
+                            <div class="form-group">
+                                <select name="" id="" class="form-control">
+                                    <option value="">option 1</option>
+                                    <option value="">option 2</option>
+                                </select>
+                            </div>
+
+
+
+                            <h2 class="gui-sub-heading">Select</h2>
+
+                            <div class="row">
+                                <div class="col-xs-4 form-group">
+                                    <label for="exampleInput1">Label</label>
+                                    <input type="text" class="form-control" id="exampleInput1" placeholder="Placeholder">
+                                    <span class="help-block">Information with <a class="strong" href="">link</a></span>
+                                </div>
+
+                                <div class="col-xs-4 form-group">
+                                    <label for="exampleInput2">Label</label>
+                                    <input type="text" class="form-control" id="exampleInput2" placeholder="Placeholder" value="With something inside">
+                                    <span class="help-block">Information with <a class="strong" href="">link</a></span>
+                                </div>
+
+                                <div class="col-xs-4 form-group">
+                                    <label for="exampleInput3">Label</label>
+                                    <input type="text" class="form-control" id="exampleInput3" value="Disabled input" disabled="">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-4 form-group has-success">
+                                    <input type="text" class="form-control" id="exampleInput4" value="Input - success">
+                                </div>
+
+                                <div class="col-xs-4 form-group has-error">
+                                    <input type="text" class="form-control" id="exampleInput5" value="Input - error">
+                                </div>
+
+                                <div class="col-xs-4 form-group has-warning">
+                                    <input type="text" class="form-control" id="exampleInput6" value="Input - warning">
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="gui-section">
+                            <h1 class="gui-heading">Breadcrumbs</h1>
+
+                            <h2 class="gui-sub-heading">Standard</h2>
+
+                            <ol class="breadcrumb">
+                                <li><a href="#">Accueil</a></li>
+                                <li><a href="#">Agendas</a></li>
+                                <li class="active">Agenda planing prestige - Collection SOHO</li>
+                            </ol>
+
+                            <h2 class="gui-sub-heading">Process</h2>
+
+                            <ol class="process">
+                                <li><a href="#">1. Coordonnées</a></li>
+                                <li class="is-active">2. Récapitulatif</li>
+                                <li class="is-next">3. Paiement</li>
+                                <li class="hidden"><i class="fa fa-check-circle"></i> Commande effectuée !</li>
+                            </ol>
+
+                            <ol class="process">
+                                <li><a href="#">1. Coordonnées</a></li>
+                                <li><a href="">2. Récapitulatif</a></li>
+                                <li class="is-active">3. Paiement</li>
+                                <li class="hidden"><i class="fa fa-check-circle"></i> Commande effectuée !</li>
+                            </ol>
+
+                            <ol class="process">
+                                <li><a href="#">1. Coordonnées</a></li>
+                                <li><a href="">2. Récapitulatif</a></li>
+                                <li><a href="">3. Paiement</a></li>
+                                <li class="is-success"><i class="fa fa-check-circle"></i> Commande effectuée !</li>
+                            </ol>
+                        </section>
+
+                        <section class="gui-section">
+                            <h2 class="gui-heading">Carousel</h2>
+
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <h2 class="gui-sub-heading">Mobile/Tablet</h2>
+                                </div>
+                                <div class="col-xs-8">
+                                    <h2 class="gui-sub-heading">Desktop</h2>
+                                    <section id="top-carousel-example" class="carousel slide top-carousel" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="item" style="background-image:url('http://placehold.it/75&amp;text=1')" data-index="1">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item" style="background-image:url('http://placehold.it/75&amp;text=2')" data-index="2">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item" style="background-image:url('http://placehold.it/75&amp;text=3')" data-index="3">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item" style="background-image:url('http://placehold.it/75&amp;text=4')" data-index="4">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item" style="background-image:url('http://placehold.it/75&amp;text=5')" data-index="5">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item" style="background-image:url('http://placehold.it/75&amp;text=6')" data-index="6">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item" style="background-image:url('http://placehold.it/75&amp;text=7')" data-index="7">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item" style="background-image:url('http://placehold.it/75&amp;text=8')" data-index="8">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item" style="background-image:url('http://placehold.it/75&amp;text=9')" data-index="9">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item" style="background-image:url('http://placehold.it/75&amp;text=10')" data-index="10">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item" style="background-image:url('http://placehold.it/75&amp;text=11')" data-index="11">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item active" style="background-image:url('http://placehold.it/75&amp;text=12')" data-index="12">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item " style="background-image:url('http://placehold.it/75&amp;text=13')" data-index="13">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item " style="background-image:url('http://placehold.it/75&amp;text=14')" data-index="14">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item " style="background-image:url('http://placehold.it/75&amp;text=15')" data-index="15">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item " style="background-image:url('http://placehold.it/75&amp;text=16')" data-index="16">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item " style="background-image:url('http://placehold.it/75&amp;text=17')" data-index="17">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item " style="background-image:url('http://placehold.it/75&amp;text=18')" data-index="18">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item " style="background-image:url('http://placehold.it/75&amp;text=19')" data-index="19">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item " style="background-image:url('http://placehold.it/75&amp;text=20')" data-index="20">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item " style="background-image:url('http://placehold.it/75&amp;text=21')" data-index="21">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item " style="background-image:url('http://placehold.it/75&amp;text=22')" data-index="22">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item " style="background-image:url('http://placehold.it/75&amp;text=23')" data-index="23">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item " style="background-image:url('http://placehold.it/75&amp;text=24')" data-index="24">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item " style="background-image:url('http://placehold.it/75&amp;text=25')" data-index="25">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item " style="background-image:url('http://placehold.it/75&amp;text=26')" data-index="26">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item " style="background-image:url('http://placehold.it/75&amp;text=27')" data-index="27">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item " style="background-image:url('http://placehold.it/75&amp;text=28')" data-index="28">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item " style="background-image:url('http://placehold.it/75&amp;text=29')" data-index="29">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item " style="background-image:url('http://placehold.it/75&amp;text=30')" data-index="30">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item " style="background-image:url('http://placehold.it/75&amp;text=31')" data-index="31">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="item " style="background-image:url('http://placehold.it/75&amp;text=32')" data-index="32">
+                                                <h1 class="top-carousel-heading">Collection <strong>Le Routard</strong></h1>
+
+                                                <a href="#" class="btn btn-danger btn-danger-white top-carousel-btn">Voir les produits</a>
+
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </section>
+
+                                    <section id="bottom-carousel-example" class="carousel slide bottom-carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#bottom-carousel-example" data-slide-to="0" class="active"></li>
+                                            <li data-target="#bottom-carousel-example" data-slide-to="1" class="is-active"></li>
+                                            <li data-target="#bottom-carousel-example" data-slide-to="2" class="is-active"></li>
+                                            <li data-target="#bottom-carousel-example" data-slide-to="3" class="is-active"></li>
+                                        </ol>
+
+                                        <div class="carousel-inner">
+                                            <div class="item active">
+                                                <ul class="table-list">
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="0" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="1" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="2" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="3" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="4" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="5" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="6" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="7" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="item ">
+                                                <ul class="table-list">
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="8" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="9" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="10" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="11" class="top-carousel-item-link is-active">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="12" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="13" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="14" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="15" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="item ">
+                                                <ul class="table-list">
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="16" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="17" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="18" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="19" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="20" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="21" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="22" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="23" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="item ">
+                                                <ul class="table-list">
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="24" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="25" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="26" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="27" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="28" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="29" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="30" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#top-carousel-example" data-slide-to="31" class="top-carousel-item-link">
+                                                            <img src="http://placehold.it/47/000000/000000">
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <!-- Controls -->
+                                        <a class="left carousel-control disabled" href="#bottom-carousel-example" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+
+                                        <a class="right carousel-control" href="#bottom-carousel-example" data-slide="next"><i class="fa fa-angle-right"></i></a>
+                                    </section>
+
+                                    <section class="gui-section">
+                                        <h1 class="gui-heading">Tabcordion</h1>
+
+                                        <p>Resize your browser to check the different behaves</p>
+
+                                        <div class="tabcordion-group">
+                                            <div class="tabcordion tab">
+                                                <div class="tabcordion-head is-in">
+                                                    <h2>
+                                                        <a href="#"><span><i class="fa fa-rebel tabcordion-icon"></i>Commandes</span></a>
+                                                    </h2>
+                                                </div>
+                                                <div class="tabcordion-body">
+                                                    1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, optio.
+                                                </div>
+                                            </div>
+
+                                            <div class="tabcordion tab">
+                                                <div class="tabcordion-head">
+                                                    <h2>
+                                                        <a href="#"><span><i class="fa fa-rebel tabcordion-icon"></i>Informations</span></a>
+                                                    </h2>
+                                                </div>
+                                                <div class="tabcordion-body hidden">
+                                                    2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, optio.
+                                                </div>
+                                            </div>
+
+                                            <div class="tabcordion tab">
+                                                <div class="tabcordion-head">
+                                                    <h2>
+                                                        <a href="#"><span><i class="fa fa-rebel tabcordion-icon"></i>Souscription</span></a>
+                                                    </h2>
+                                                </div>
+                                                <div class="tabcordion-body hidden">
+                                                    3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, optio.
+                                                </div>
+                                            </div>
+
+                                            <div class="tabcordion tab">
+                                                <div class="tabcordion-head">
+                                                    <h2>
+                                                        <a href="#"><span><i class="fa fa-rebel tabcordion-icon"></i>Mot de passe</span></a>
+                                                    </h2>
+                                                </div>
+                                                <div class="tabcordion-body hidden">
+                                                    4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, optio.
+                                                </div>
+                                            </div>
+
+                                            <div class="tabcordion tab">
+                                                <div class="tabcordion-head">
+                                                    <h2>
+                                                        <a href="#"><span><i class="fa fa-rebel tabcordion-icon"></i>Carte bancaire</span></a>
+                                                    </h2>
+                                                </div>
+                                                <div class="tabcordion-body hidden">
+                                                    5 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, optio.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                </div>
+                            </div>
+
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+        <!-- Bootstrap -->
+        <script src="vendor/bootstrap/3.1.1/js/affix.js"></script>
+        <script src="vendor/bootstrap/3.1.1/js/alert.js"></script>
+        <script src="vendor/bootstrap/3.1.1/js/button.js"></script>
+        <script src="vendor/bootstrap/3.1.1/js/carousel.js"></script>
+        <script src="vendor/bootstrap/3.1.1/js/collapse.js"></script>
+        <script src="vendor/bootstrap/3.1.1/js/dropdown.js"></script>
+        <script src="vendor/bootstrap/3.1.1/js/modal.js"></script>
+        <script src="vendor/bootstrap/3.1.1/js/tooltip.js"></script>
+        <script src="vendor/bootstrap/3.1.1/js/popover.js"></script>
+        <script src="vendor/bootstrap/3.1.1/js/scrollspy.js"></script>
+        <script src="vendor/bootstrap/3.1.1/js/tab.js"></script>
+        <script src="vendor/bootstrap/3.1.1/js/transition.js"></script>
+
+        <script src="js/carousel.js"></script>
+        <script src="js/tabcordion.js"></script>
+    </body>
+</html>
